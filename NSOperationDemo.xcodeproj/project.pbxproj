@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE47A4DB20EDB19000983516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47A4DA20EDB19000983516 /* AppDelegate.m */; };
+		EE47A4DE20EDB19000983516 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47A4DD20EDB19000983516 /* ViewController.m */; };
+		EE47A4E120EDB19000983516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE47A4DF20EDB19000983516 /* Main.storyboard */; };
+		EE47A4E320EDB19100983516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE47A4E220EDB19100983516 /* Assets.xcassets */; };
+		EE47A4E620EDB19100983516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE47A4E420EDB19100983516 /* LaunchScreen.storyboard */; };
+		EE47A4E920EDB19100983516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47A4E820EDB19100983516 /* main.m */; };
+		EE47A4F120EDC48D00983516 /* PPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47A4F020EDC48D00983516 /* PPOperation.m */; };
+		EE47A4F520EF4B8700983516 /* PPOperation2.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47A4F420EF4B8700983516 /* PPOperation2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE47A4D620EDB19000983516 /* NSOperationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOperationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE47A4D920EDB19000983516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE47A4DA20EDB19000983516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE47A4DC20EDB19000983516 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE47A4DD20EDB19000983516 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE47A4E020EDB19000983516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE47A4E220EDB19100983516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE47A4E520EDB19100983516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE47A4E720EDB19100983516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE47A4E820EDB19100983516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE47A4EF20EDC48D00983516 /* PPOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPOperation.h; sourceTree = "<group>"; };
+		EE47A4F020EDC48D00983516 /* PPOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPOperation.m; sourceTree = "<group>"; };
+		EE47A4F320EF4B8700983516 /* PPOperation2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPOperation2.h; sourceTree = "<group>"; };
+		EE47A4F420EF4B8700983516 /* PPOperation2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPOperation2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE47A4D320EDB19000983516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE47A4CD20EDB19000983516 = {
+			isa = PBXGroup;
+			children = (
+				EE47A4D820EDB19000983516 /* NSOperationDemo */,
+				EE47A4D720EDB19000983516 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE47A4D720EDB19000983516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE47A4D620EDB19000983516 /* NSOperationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE47A4D820EDB19000983516 /* NSOperationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE47A4D920EDB19000983516 /* AppDelegate.h */,
+				EE47A4DA20EDB19000983516 /* AppDelegate.m */,
+				EE47A4DC20EDB19000983516 /* ViewController.h */,
+				EE47A4DD20EDB19000983516 /* ViewController.m */,
+				EE47A4DF20EDB19000983516 /* Main.storyboard */,
+				EE47A4E220EDB19100983516 /* Assets.xcassets */,
+				EE47A4E420EDB19100983516 /* LaunchScreen.storyboard */,
+				EE47A4E720EDB19100983516 /* Info.plist */,
+				EE47A4E820EDB19100983516 /* main.m */,
+				EE47A4EF20EDC48D00983516 /* PPOperation.h */,
+				EE47A4F020EDC48D00983516 /* PPOperation.m */,
+				EE47A4F320EF4B8700983516 /* PPOperation2.h */,
+				EE47A4F420EF4B8700983516 /* PPOperation2.m */,
+			);
+			path = NSOperationDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE47A4D520EDB19000983516 /* NSOperationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE47A4EC20EDB19100983516 /* Build configuration list for PBXNativeTarget "NSOperationDemo" */;
+			buildPhases = (
+				EE47A4D220EDB19000983516 /* Sources */,
+				EE47A4D320EDB19000983516 /* Frameworks */,
+				EE47A4D420EDB19000983516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSOperationDemo;
+			productName = NSOperationDemo;
+			productReference = EE47A4D620EDB19000983516 /* NSOperationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE47A4CE20EDB19000983516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = webank;
+				TargetAttributes = {
+					EE47A4D520EDB19000983516 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EE47A4D120EDB19000983516 /* Build configuration list for PBXProject "NSOperationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE47A4CD20EDB19000983516;
+			productRefGroup = EE47A4D720EDB19000983516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE47A4D520EDB19000983516 /* NSOperationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE47A4D420EDB19000983516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE47A4E620EDB19100983516 /* LaunchScreen.storyboard in Resources */,
+				EE47A4E320EDB19100983516 /* Assets.xcassets in Resources */,
+				EE47A4E120EDB19000983516 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE47A4D220EDB19000983516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE47A4DE20EDB19000983516 /* ViewController.m in Sources */,
+				EE47A4F520EF4B8700983516 /* PPOperation2.m in Sources */,
+				EE47A4F120EDC48D00983516 /* PPOperation.m in Sources */,
+				EE47A4E920EDB19100983516 /* main.m in Sources */,
+				EE47A4DB20EDB19000983516 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE47A4DF20EDB19000983516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE47A4E020EDB19000983516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE47A4E420EDB19100983516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE47A4E520EDB19100983516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE47A4EA20EDB19100983516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE47A4EB20EDB19100983516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE47A4ED20EDB19100983516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSOperationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.webank.faceOnCloud.NSOperationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE47A4EE20EDB19100983516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NSOperationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.webank.faceOnCloud.NSOperationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE47A4D120EDB19000983516 /* Build configuration list for PBXProject "NSOperationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE47A4EA20EDB19100983516 /* Debug */,
+				EE47A4EB20EDB19100983516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE47A4EC20EDB19100983516 /* Build configuration list for PBXNativeTarget "NSOperationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE47A4ED20EDB19100983516 /* Debug */,
+				EE47A4EE20EDB19100983516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE47A4CE20EDB19000983516 /* Project object */;
+}
